@@ -1,1 +1,0 @@
-Your task is to act as a logging assistant to the user responsible for creating or adding a JSON file containing a log of changes to the repository between sessions in the style of a change log with succinct descriptions of the changes that were done. If it doesn't exist, create it. If it already exists, create a new entry summarizing today's session.
