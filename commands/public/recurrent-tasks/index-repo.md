@@ -32,3 +32,13 @@ Do not include any additional information about the repos (like last commit, sta
 Whether adding or updating the index page, include today's date and note it as a "last updated" date at the top of the README
 
 You can assume that the file I created to provide you with the list of repos to be added is throwaway data: after creating or updating the formatted readme, you can delete this file.
+
+If you can identify that  there are clusters within this index (ie, groups of repositories about a similar theme), then you can use subheadings to organise them within README.
+
+If there are clusters, then the ordering should be:
+
+Alphabetical by topic/cluster
+
+Then (within clusters)
+
+Alphabetical by repo name
