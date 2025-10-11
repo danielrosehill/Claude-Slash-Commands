@@ -13,22 +13,36 @@ This repository provides reusable slash commands that can be invoked within Clau
 
 | Directory | Purpose |
 |-----------|---------|
-| [`commands/public`](commands/public) | Publicly shareable slash commands |
-| [`agents`](agents) | Agent configurations from Claude-Code-Writing-Squad and Claude-Sub-Agent-Network repositories (many agents may also be viable as slash commands) |
+| [`commands/public`](commands/public) | 70+ publicly shareable slash commands organized by category |
+| [`commands/private`](commands/private) | Private/personal slash commands |
 | [`scripts`](scripts) | Python automation scripts |
 | [`ref`](ref) | Reference documentation |
-
-**Note:** The `agents` directory is populated from two other Claude Code repositories ([Claude-Code-Writing-Squad](https://github.com/danielrosehill/Claude-Code-Writing-Squad) and [Claude-Sub-Agent-Network](https://github.com/danielrosehill/Claude-Sub-Agent-Network)) and is duplicated here because many of the agents may also be viable as slash commands.
+| [`hooks`](hooks) | Git hooks for repository automation |
+| [`inspiration`](inspiration) | Ideas and inspiration for new commands |
 
 ## Command Categories
 
-| Category | Description | Commands |
-|----------|-------------|----------|
-| **Documentation** | Commands for generating and formatting documentation | [`add-readme`](commands/public/docs/add-readme.md), [`format-links`](commands/public/docs/format-links.md) |
-| **Repository Organization** | Commands for cleaning and organizing repositories | [`clean-repo`](commands/public/repo-org/clean-repo.md) |
-| **Security** | Commands for security-related tasks | [`allow-env`](commands/public/security/allow-env.md) |
-| **Development Steers** | Commands that guide development patterns | [`use-uv`](commands/public/steers/use-uv.md) |
-| **Miscellaneous** | Utility commands | [`wrong-number`](commands/public/misc/wrong-number.md) |
+| Category | Description | Example Commands |
+|----------|-------------|------------------|
+| **Code Editing** | Format and modify code | `format-code`, `remove-comments` |
+| **Deployment** | Deploy to GitHub and Hugging Face | `make-private-gh-repo`, `make-public-gh-repo`, `hf-dataset`, `hf-space` |
+| **Development** | Development workflow tools | `containerize`, `decontainerize`, `setup-ci-cd`, `setup-hot-reload`, `inspect-deployment` |
+| **Documentation** | Generate and format documentation | `create-readme`, `update-readme`, `create-hf-readme`, `create-changelog`, `create-reference`, `document-stack`, `format-links` |
+| **Educational** | Learning and code analysis | `analyze-commits`, `create-briefing`, `explain-code`, `find-learning` |
+| **Filesystem Management** | Organize files and directories | `flatten`, `organise` |
+| **GitHub Workflow** | GitHub repository management | `backup-repo`, `choose-license`, `contributor-guide`, `create-branch`, `fork-setup` |
+| **Ideation** | Generate ideas and suggestions | `design-ideas`, `fresh-perspective`, `innovative-features`, `suggest-ideas` |
+| **Media Management** | Process and organize media files | `process-stock`, `sort-media` |
+| **Operations** | Project management and debugging | `collect-feedback`, `create-scope`, `debug-fix`, `document-blocker`, `manage-project`, `refactor-plan`, `session-summary` |
+| **Recurrent Tasks** | Automated recurring tasks | `index-repo` |
+| **Repository Organization** | Clean and organize repositories | `clean-repo`, `set-up-task-mgmt` |
+| **Security** | Security scanning and configuration | `allow-env`, `scan-pii` |
+| **SEO & Web** | SEO optimization and auditing | `ai-friendly-seo`, `seo-audit` |
+| **Development Steers** | Guide development patterns | `use-uv` |
+| **System Administration** | System configuration and management | `docker-help`, `organize-files`, `python-env-setup`, `review-boot`, `setup-conda` |
+| **UX Design** | UI/UX improvements | `improve-css`, `optimize-dashboard`, `optimize-fonts`, `responsive-audit`, `standardize-icons`, `suggest-frameworks` |
+| **Writing** | Content writing and editing | `add-headings`, `add-sources`, `fix-typos`, `improve-flow`, `proofread`, `seo-optimize`, `uk-english` |
+| **Miscellaneous** | Utility commands | `wrong-number` |
 
 ## Usage
 
@@ -109,6 +123,7 @@ Commands follow a consistent structure:
 
 This repository is part of a collection of Claude Code resources:
 
+- **[Claude-Code-Repos-Index](https://github.com/danielrosehill/Claude-Code-Repos-Index)** - Comprehensive index of all Claude Code related repositories
 - **[Claude-Code-Writing-Squad](https://github.com/danielrosehill/Claude-Code-Writing-Squad)** - Specialized writing-focused agents for Claude Code
 - **[Claude-Sub-Agent-Network](https://github.com/danielrosehill/Claude-Sub-Agent-Network)** - Network of sub-agents for complex multi-step tasks
 - **[Smithery-Claude-Code-MCP-Jumpstarter](https://github.com/danielrosehill/Smithery-Claude-Code-MCP-Jumpstarter)** - MCP server configurations and jumpstart guides
