@@ -33,7 +33,9 @@ Whether adding or updating the index page, include today's date and note it as a
 
 You can assume that the file I created to provide you with the list of repos to be added is throwaway data: after creating or updating the formatted readme, you can delete this file.
 
-If you can identify that  there are clusters within this index (ie, groups of repositories about a similar theme), then you can use subheadings to organise them within README.
+If you can identify that  there are clusters within this index (ie, groups of repositories about a similar theme), then you can use subheadings to organise them within README. 
+
+If there are clusters, add a TOC and and horizontal lines between clusters/groups to emphasise the visual separation
 
 If there are clusters, then the ordering should be:
 
