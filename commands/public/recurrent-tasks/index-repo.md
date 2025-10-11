@@ -30,3 +30,5 @@ The shields.io badge should be a Github badge that says View Repo and links to t
 Do not include any additional information about the repos (like last commit, stargazers, count). Just this data. 
 
 Whether adding or updating the index page, include today's date and note it as a "last updated" date at the top of the README
+
+You can assume that the file I created to provide you with the list of repos to be added is throwaway data: after creating or updating the formatted readme, you can delete this file.
