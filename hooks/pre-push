@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Pre-push hook to sync slash commands
+# Runs sync-commands.sh before pushing to ensure commands are synced
+
+echo "Running sync-commands.sh before push..."
+echo ""
+
+# Get the repository root directory
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+# Run the sync script
+if [ -f "${REPO_ROOT}/sync-commands.sh" ]; then
+    bash "${REPO_ROOT}/sync-commands.sh"
+    sync_exit_code=$?
+
+    echo ""
+    if [ $sync_exit_code -eq 0 ]; then
+        echo "✓ Sync complete, proceeding with push..."
+        exit 0
+    else
+        echo "✗ Sync failed with exit code $sync_exit_code"
+        echo "Push aborted. Fix the sync issues and try again."
+        exit 1
+    fi
+else
+    echo "Warning: sync-commands.sh not found at ${REPO_ROOT}"
+    echo "Proceeding with push anyway..."
+    exit 0
+fi

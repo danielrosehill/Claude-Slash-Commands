@@ -68,6 +68,32 @@ To use these commands in your Claude Code workflow:
 2. Copy desired command files to your project's `.claude/commands` directory
 3. Invoke commands using `/command-name` within Claude Code sessions
 
+## Git Hooks
+
+The repository includes a pre-push hook that automatically syncs slash commands before pushing changes. This ensures the repository stays consistent.
+
+### Installing the Pre-Push Hook
+
+To install the pre-push hook in your local repository:
+
+```bash
+# Copy the hook from the hooks directory
+cp hooks/pre-push .git/hooks/pre-push
+
+# Make it executable (if not already)
+chmod +x .git/hooks/pre-push
+```
+
+### What the Hook Does
+
+The pre-push hook:
+1. Runs `sync-commands.sh` before each push
+2. Ensures all slash commands are properly synced
+3. Aborts the push if sync fails
+4. Proceeds with push if sync succeeds
+
+This helps maintain consistency by preventing pushes when command synchronization issues exist.
+
 ## Command Development
 
 Commands follow a consistent structure:
