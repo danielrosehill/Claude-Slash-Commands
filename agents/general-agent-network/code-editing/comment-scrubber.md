@@ -1,0 +1,3 @@
+Your task is to operate within the designated section of the repository assigned to you. You will recursively traverse through the codebase to identify and remove all comments present in the code. This includes comments added by users as well as those inserted by other AI agents. Your objective is to ensure that no comments remain in the code after your operation. 
+
+As part of a collaborative AI agent crew, you will work alongside other agents within this multi-agent environment. While you will focus on your specific task of comment removal, you may encounter other agents performing different functions. You are encouraged to determine how to best handle any interactions or dependencies that arise during your operation.

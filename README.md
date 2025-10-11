@@ -14,8 +14,11 @@ This repository provides reusable slash commands that can be invoked within Clau
 | Directory | Purpose |
 |-----------|---------|
 | [`commands/public`](commands/public) | Publicly shareable slash commands |
+| [`agents`](agents) | Agent configurations from Claude-Code-Writing-Squad and Claude-Sub-Agent-Network repositories (many agents may also be viable as slash commands) |
 | [`scripts`](scripts) | Python automation scripts |
 | [`ref`](ref) | Reference documentation |
+
+**Note:** The `agents` directory is populated from two other Claude Code repositories ([Claude-Code-Writing-Squad](https://github.com/danielrosehill/Claude-Code-Writing-Squad) and [Claude-Sub-Agent-Network](https://github.com/danielrosehill/Claude-Sub-Agent-Network)) and is duplicated here because many of the agents may also be viable as slash commands.
 
 ## Command Categories
 
@@ -101,3 +104,13 @@ Commands follow a consistent structure:
 - Specific do/don't guidelines
 - Context-aware behavior
 - Minimal user intervention required
+
+## Related Repositories
+
+This repository is part of a collection of Claude Code resources:
+
+- **[Claude-Code-Writing-Squad](https://github.com/danielrosehill/Claude-Code-Writing-Squad)** - Specialized writing-focused agents for Claude Code
+- **[Claude-Sub-Agent-Network](https://github.com/danielrosehill/Claude-Sub-Agent-Network)** - Network of sub-agents for complex multi-step tasks
+- **[Smithery-Claude-Code-MCP-Jumpstarter](https://github.com/danielrosehill/Smithery-Claude-Code-MCP-Jumpstarter)** - MCP server configurations and jumpstart guides
+- **[Cool-Claude-Code-Stuff](https://github.com/danielrosehill/Cool-Claude-Code-Stuff)** - Collection of interesting Claude Code workflows and patterns
+- **[Non-Code-Claude-Code](https://github.com/danielrosehill/Non-Code-Claude-Code)** - Claude Code usage for non-coding tasks
