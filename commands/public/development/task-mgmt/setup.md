@@ -8,7 +8,7 @@ And as subfolders:
 
 /to-do
 /drafts
-/-done
+-done
 /in-progress
 
-If the user has already implemented or partially implemented a task tracking solution, keep it in place. 
+If the user has already implemented or partially implemented a task tracking solution, keep it in place (search for similar words like projects)
