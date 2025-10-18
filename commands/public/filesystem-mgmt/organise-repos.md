@@ -13,3 +13,5 @@ Then:
 The thematic subfolders may already exist or you may need to create it. You can determine whether a folder is a repostiry or an organisation folder if you are unsure by inspecting its contents and seeing whether it contains a .git (etc).
 
 Try to strike a balance when organising: we don't want so many organisation folders that they're overly specific and we end up with as many folders as there are repositories. Avoid being overly granular. But achieve a reasonable level of topic clustering.
+
+If you identify that a number of repos do not fit  cleanly into any one of the existing topics (or those you create) you can create a misc folder to hold them. 
