@@ -491,6 +491,10 @@ For a comprehensive, auto-generated index of all available commands organized by
 | [`uk-english`](commands/public/writing/uk-english.md) | *No description available* |
 <!-- INDEX_END -->
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Related Repositories
 
 This repository is part of a collection of Claude Code resources:
