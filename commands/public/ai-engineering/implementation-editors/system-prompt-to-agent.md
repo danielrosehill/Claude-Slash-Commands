@@ -12,3 +12,9 @@ That reimplementation may be:
 The user will provide details about their envisioned implementation. Alternatively they will ask you to provide suggestions. 
 
 Now, ask the user how they would like to proceed.
+
+In all cases:
+
+Don't "lose" the original system prompt. 
+
+You should keep the original in an /archive folder which you should create and, if necessary, iterate upon it in this codebase. The original system prompt can be prefixed or suffixed with -original so that it can be clearly distinguished from the updated version.
