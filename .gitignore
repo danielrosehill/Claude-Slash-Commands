@@ -8,7 +8,6 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-CLAUDE.md
 
 # Environment variables
 .env.local

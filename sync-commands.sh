@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Sync script for Claude slash commands
-# Syncs commands from this repository to ~/.claude/commands
-# Preserves nested directory structure while skipping private/public containers
+# Syncs repo-level commands (.claude/commands/*) to ~/.claude/commands/repo-commands
+# This keeps project-specific commands separate from the main command library
 
 # Colors for output
 GREEN='\033[0;32m'
@@ -13,10 +13,10 @@ NC='\033[0m' # No Color
 
 # Get the script's directory (repository root)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SOURCE_DIR="${SCRIPT_DIR}/commands"
-TARGET_DIR="${HOME}/.claude/commands"
+SOURCE_DIR="${SCRIPT_DIR}/repo-commands"
+TARGET_DIR="${HOME}/.claude/commands/repo-commands"
 
-echo -e "${BLUE}Claude Slash Commands Sync${NC}"
+echo -e "${BLUE}Claude Repo Commands Sync${NC}"
 echo "================================"
 echo "Source: ${SOURCE_DIR}"
 echo "Target: ${TARGET_DIR}"
@@ -45,48 +45,26 @@ trap "rm -f $SYNC_MANIFEST" EXIT
 
 echo -e "${BLUE}Syncing markdown files...${NC}"
 
-# Process both private and public containers
-for container in "private" "public"; do
-    container_path="${SOURCE_DIR}/${container}"
+# Find all .md files in SOURCE_DIR and copy them to base of TARGET_DIR
+while IFS= read -r -d $'\0' file; do
+    # Get just the filename
+    filename=$(basename "$file")
+    target_path="${TARGET_DIR}/${filename}"
 
-    if [ ! -d "${container_path}" ]; then
-        continue
+    # Check if file needs updating (doesn't exist or is different)
+    if [ ! -f "$target_path" ] || ! cmp -s "$file" "$target_path"; then
+        cp "$file" "$target_path"
+        echo -e "  ${GREEN}✓${NC} ${filename}"
+        ((updated_count++))
+    else
+        ((skipped_count++))
     fi
 
-    # Find all subdirectories in the container (one level deep)
-    for subdir in "${container_path}"/*; do
-        # Skip if glob didn't match anything or not a directory
-        [ ! -d "$subdir" ] && continue
+    # Track this file as synced
+    echo "$target_path" >> "$SYNC_MANIFEST"
+    ((total_count++))
 
-        subdir_name=$(basename "$subdir")
-
-        # Find all .md files recursively within this subdirectory
-        while IFS= read -r -d $'\0' file; do
-            # Calculate relative path from the subdirectory
-            rel_path="${file#${subdir}/}"
-            target_path="${TARGET_DIR}/${subdir_name}/${rel_path}"
-            target_dir=$(dirname "$target_path")
-
-            # Create target subdirectory if needed
-            mkdir -p "$target_dir"
-
-            # Check if file needs updating (doesn't exist or is different)
-            if [ ! -f "$target_path" ] || ! cmp -s "$file" "$target_path"; then
-                cp "$file" "$target_path"
-                echo -e "  ${GREEN}✓${NC} ${subdir_name}/${rel_path} (from ${container})"
-                ((updated_count++))
-            else
-                ((skipped_count++))
-            fi
-
-            # Track this file as synced
-            echo "$target_path" >> "$SYNC_MANIFEST"
-            ((total_count++))
-
-        done < <(find "$subdir" -type f -name "*.md" -print0)
-
-    done
-done
+done < <(find "$SOURCE_DIR" -type f -name "*.md" -print0)
 
 # Clean up orphaned files (exist in target but not in source)
 echo -e "${BLUE}Cleaning up orphaned files...${NC}"
@@ -112,15 +90,9 @@ else
     echo -e "  Unchanged: ${skipped_count} file(s)"
     echo -e "  Removed: ${removed_count} file(s)"
     echo ""
-    echo "Available commands:"
+    echo "Available repo commands:"
     while IFS= read -r -d $'\0' file; do
         cmd_name=$(basename "$file" .md)
-        rel_path="${file#${TARGET_DIR}/}"
-        namespace=$(dirname "$rel_path")
-        if [ "$namespace" != "." ]; then
-            echo -e "  ${GREEN}/${cmd_name}${NC} (${namespace})"
-        else
-            echo -e "  ${GREEN}/${cmd_name}${NC}"
-        fi
-    done < <(find "${TARGET_DIR}" -type f -name "*.md" -print0 2>/dev/null | sort -z)
+        echo -e "  ${GREEN}/repo-commands:${cmd_name}${NC}"
+    done < <(find "${TARGET_DIR}" -maxdepth 1 -type f -name "*.md" -print0 2>/dev/null | sort -z)
 fi
