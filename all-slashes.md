@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 357
+Total commands: 358
 
 ## Command List (Alphabetical)
 
@@ -40,6 +40,7 @@ Total commands: 357
 - [audit-local-ai-packages](commands-flat/audit-local-ai-packages.md)
 - [audit-ollama-models](commands-flat/audit-ollama-models.md)
 - [awesome-list-creation](commands-flat/awesome-list-creation.md)
+- [awesome-list-data-extraction](commands-flat/awesome-list-data-extraction.md)
 - [backup-repo](commands-flat/backup-repo.md)
 - [basic-voice-audio-edits](commands-flat/basic-voice-audio-edits.md)
 - [batch-resize](commands-flat/batch-resize.md)

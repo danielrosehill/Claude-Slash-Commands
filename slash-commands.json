@@ -35,6 +35,7 @@
   {"name": "audit-local-ai-packages", "path": "commands-flat/audit-local-ai-packages.md"},
   {"name": "audit-ollama-models", "path": "commands-flat/audit-ollama-models.md"},
   {"name": "awesome-list-creation", "path": "commands-flat/awesome-list-creation.md"},
+  {"name": "awesome-list-data-extraction", "path": "commands-flat/awesome-list-data-extraction.md"},
   {"name": "backup-repo", "path": "commands-flat/backup-repo.md"},
   {"name": "basic-voice-audio-edits", "path": "commands-flat/basic-voice-audio-edits.md"},
   {"name": "batch-resize", "path": "commands-flat/batch-resize.md"},

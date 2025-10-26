@@ -1,5 +1,9 @@
 # Claude Slash Commands
 
+[![Claude Code](https://img.shields.io/badge/Claude-Code-8A2BE2?logo=anthropic&logoColor=white)](https://claude.ai/claude-code)
+[![Claude Code Projects](https://img.shields.io/badge/Claude%20Code-Projects%20Index-8A2BE2?logo=github)](https://github.com/danielrosehill/Claude-Code-Repos-Index)
+[![Master Index](https://img.shields.io/badge/Master-Index-blue?logo=github)](https://github.com/danielrosehill/Github-Master-Index)
+
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Shell](https://img.shields.io/badge/shell-bash-green.svg)
 ![Commands](https://img.shields.io/badge/commands-357-brightgreen.svg)
