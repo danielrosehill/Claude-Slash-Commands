@@ -11,3 +11,6 @@ __pycache__/
 
 # Environment variables
 .env.local
+
+# Metrics - ignore generated graphs but track CSV data
+.metrics/*.png

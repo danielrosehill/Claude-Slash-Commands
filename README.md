@@ -125,6 +125,8 @@ Commands follow a consistent structure:
 
 For a comprehensive, auto-generated index of all available commands organized by category, see [INDEX.md](INDEX.md).
 
+For an alphabetical list of all slash commands, see [all-slashes.md](all-slashes.md).
+
 <!-- INDEX_START -->
 # Command Index
 
