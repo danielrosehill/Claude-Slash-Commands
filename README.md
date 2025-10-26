@@ -2,8 +2,15 @@
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Shell](https://img.shields.io/badge/shell-bash-green.svg)
+![Commands](https://img.shields.io/badge/commands-357-brightgreen.svg)
 
 A curated collection of custom slash commands for Claude Code CLI, designed to streamline common development workflows and enforce consistent patterns across projects.
+
+## Command Organization Visualization
+
+![Command Organization Graph](ref/from-ai/command-graph.png)
+
+*Visual representation of slash command organization across categories and subcategories.*
 
 ## Overview
 
@@ -13,8 +20,7 @@ This repository provides reusable slash commands that can be invoked within Clau
 
 | Directory | Purpose |
 |-----------|---------|
-| [`commands/public`](commands/public) | 70+ publicly shareable slash commands organized by category |
-| [`commands/private`](commands/private) | Private/personal slash commands |
+| [`commands`](commands) | 350+ slash commands organized by category |
 | [`scripts`](scripts) | Python automation scripts |
 | [`ref`](ref) | Reference documentation |
 | [`hooks`](hooks) | Git hooks for repository automation |
@@ -121,11 +127,15 @@ Commands follow a consistent structure:
 - Context-aware behavior
 - Minimal user intervention required
 
-## Complete Command Index
+## Browsing Available Commands
 
-For a comprehensive, auto-generated index of all available commands organized by category, see [INDEX.md](INDEX.md).
+**For a complete, searchable index of all 357 slash commands organized by category, see [INDEX.md](INDEX.md).**
 
-For an alphabetical list of all slash commands, see [all-slashes.md](all-slashes.md).
+The index provides:
+- Commands grouped by category and subcategory
+- Descriptions and usage examples
+- File paths for easy navigation
+- Auto-generated from the repository structure
 
 <!-- INDEX_START -->
 # Command Index
