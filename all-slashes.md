@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 358
+Total commands: 359
 
 ## Command List (Alphabetical)
 
@@ -262,6 +262,7 @@ Total commands: 358
 - [proof-of-concept](commands-flat/proof-of-concept.md)
 - [proofread](commands-flat/proofread.md)
 - [public-slash](commands-flat/public-slash.md)
+- [public-to-private-hf](commands-flat/public-to-private-hf.md)
 - [python-env-setup](commands-flat/python-env-setup.md)
 - [python-to-js](commands-flat/python-to-js.md)
 - [readme-to-blog-post](commands-flat/readme-to-blog-post.md)
