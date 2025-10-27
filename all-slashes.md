@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 365
+Total commands: 366
 
 ## Command List (Alphabetical)
 
@@ -335,6 +335,7 @@ Total commands: 365
 - [start-from-task](commands-flat/start-from-task.md)
 - [static-site-hardening](commands-flat/static-site-hardening.md)
 - [stock-vid-prep](commands-flat/stock-vid-prep.md)
+- [stopgap-readme](commands-flat/stopgap-readme.md)
 - [subindex](commands-flat/subindex.md)
 - [suggest-folder-structure](commands-flat/suggest-folder-structure.md)
 - [suggest-frameworks](commands-flat/suggest-frameworks.md)

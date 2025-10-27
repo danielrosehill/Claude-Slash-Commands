@@ -330,6 +330,7 @@
   {"name": "start-from-task", "path": "commands-flat/start-from-task.md"},
   {"name": "static-site-hardening", "path": "commands-flat/static-site-hardening.md"},
   {"name": "stock-vid-prep", "path": "commands-flat/stock-vid-prep.md"},
+  {"name": "stopgap-readme", "path": "commands-flat/stopgap-readme.md"},
   {"name": "subindex", "path": "commands-flat/subindex.md"},
   {"name": "suggest-folder-structure", "path": "commands-flat/suggest-folder-structure.md"},
   {"name": "suggest-frameworks", "path": "commands-flat/suggest-frameworks.md"},
