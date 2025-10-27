@@ -245,6 +245,7 @@
   {"name": "present-to-past", "path": "commands-flat/present-to-past.md"},
   {"name": "private-claude-md", "path": "commands-flat/private-claude-md.md"},
   {"name": "private-public-claude", "path": "commands-flat/private-public-claude.md"},
+  {"name": "private-to-public-hf", "path": "commands-flat/private-to-public-hf.md"},
   {"name": "probe-vulnerabilities", "path": "commands-flat/probe-vulnerabilities.md"},
   {"name": "process-stock", "path": "commands-flat/process-stock.md"},
   {"name": "profile-cpu", "path": "commands-flat/profile-cpu.md"},

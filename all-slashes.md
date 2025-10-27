@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 359
+Total commands: 360
 
 ## Command List (Alphabetical)
 
@@ -250,6 +250,7 @@ Total commands: 359
 - [present-to-past](commands-flat/present-to-past.md)
 - [private-claude-md](commands-flat/private-claude-md.md)
 - [private-public-claude](commands-flat/private-public-claude.md)
+- [private-to-public-hf](commands-flat/private-to-public-hf.md)
 - [probe-vulnerabilities](commands-flat/probe-vulnerabilities.md)
 - [process-stock](commands-flat/process-stock.md)
 - [profile-cpu](commands-flat/profile-cpu.md)
