@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 360
+Total commands: 365
 
 ## Command List (Alphabetical)
 
@@ -25,6 +25,7 @@ Total commands: 360
 - [add-sources](commands-flat/add-sources.md)
 - [add-statistics](commands-flat/add-statistics.md)
 - [add-technical-depth](commands-flat/add-technical-depth.md)
+- [add-to-context](commands-flat/add-to-context.md)
 - [add-to-my-notes](commands-flat/add-to-my-notes.md)
 - [add-ubuntu-build-script](commands-flat/add-ubuntu-build-script.md)
 - [add-uv-venv](commands-flat/add-uv-venv.md)
@@ -65,8 +66,10 @@ Total commands: 360
 - [check-third-party-repos](commands-flat/check-third-party-repos.md)
 - [check-virtualization](commands-flat/check-virtualization.md)
 - [choose-license](commands-flat/choose-license.md)
+- [chunk-repo-context](commands-flat/chunk-repo-context.md)
 - [chunk-this-dir](commands-flat/chunk-this-dir.md)
 - [claude-code-project](commands-flat/claude-code-project.md)
+- [claude-to-context](commands-flat/claude-to-context.md)
 - [clean-repo](commands-flat/clean-repo.md)
 - [clean-stt](commands-flat/clean-stt.md)
 - [clearpii](commands-flat/clearpii.md)
@@ -210,6 +213,7 @@ Total commands: 360
 - [manage-mcp-servers](commands-flat/manage-mcp-servers.md)
 - [manage-project](commands-flat/manage-project.md)
 - [manage-ssh-keys](commands-flat/manage-ssh-keys.md)
+- [manual-context-update](commands-flat/manual-context-update.md)
 - [markdown-files](commands-flat/markdown-files.md)
 - [markdown-to-other-formats](commands-flat/markdown-to-other-formats.md)
 - [maximum-hype](commands-flat/maximum-hype.md)
@@ -275,6 +279,7 @@ Total commands: 360
 - [remove-comments](commands-flat/remove-comments.md)
 - [remove-doc-sprawl](commands-flat/remove-doc-sprawl.md)
 - [remove-emojis](commands-flat/remove-emojis.md)
+- [remove-from-context](commands-flat/remove-from-context.md)
 - [repo-links-as-badges](commands-flat/repo-links-as-badges.md)
 - [repo-merge](commands-flat/repo-merge.md)
 - [repo-to-hf-space](commands-flat/repo-to-hf-space.md)
