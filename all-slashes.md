@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 366
+Total commands: 367
 
 ## Command List (Alphabetical)
 
@@ -171,6 +171,7 @@ Total commands: 366
 - [identify-unused-packages](commands-flat/identify-unused-packages.md)
 - [images-here](commands-flat/images-here.md)
 - [improve-argumentation-order](commands-flat/improve-argumentation-order.md)
+- [improve-claudemd](commands-flat/improve-claudemd.md)
 - [improve-css](commands-flat/improve-css.md)
 - [improve-flow](commands-flat/improve-flow.md)
 - [index-repo-2](commands-flat/index-repo-2.md)

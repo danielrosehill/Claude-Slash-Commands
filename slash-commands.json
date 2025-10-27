@@ -166,6 +166,7 @@
   {"name": "identify-unused-packages", "path": "commands-flat/identify-unused-packages.md"},
   {"name": "images-here", "path": "commands-flat/images-here.md"},
   {"name": "improve-argumentation-order", "path": "commands-flat/improve-argumentation-order.md"},
+  {"name": "improve-claudemd", "path": "commands-flat/improve-claudemd.md"},
   {"name": "improve-css", "path": "commands-flat/improve-css.md"},
   {"name": "improve-flow", "path": "commands-flat/improve-flow.md"},
   {"name": "index-repo-2", "path": "commands-flat/index-repo-2.md"},
