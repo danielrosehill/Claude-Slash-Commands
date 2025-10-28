@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 372
+Total commands: 374
 
 ## Command List (Alphabetical)
 
@@ -33,6 +33,7 @@ Total commands: 372
 - [add-watermark](commands-flat/add-watermark.md)
 - [add-wip](commands-flat/add-wip.md)
 - [ai-context](commands-flat/ai-context.md)
+- [ai-experiment](commands-flat/ai-experiment.md)
 - [ai-friendly-seo](commands-flat/ai-friendly-seo.md)
 - [allow-env](commands-flat/allow-env.md)
 - [allow-repo-commands](commands-flat/allow-repo-commands.md)
@@ -234,6 +235,7 @@ Total commands: 372
 - [noise-reduction](commands-flat/noise-reduction.md)
 - [no-more-docs](commands-flat/no-more-docs.md)
 - [non-code-cleanup](commands-flat/non-code-cleanup.md)
+- [non-collaborative](commands-flat/non-collaborative.md)
 - [no-orphans](commands-flat/no-orphans.md)
 - [normalize-audio](commands-flat/normalize-audio.md)
 - [note-block](commands-flat/note-block.md)
