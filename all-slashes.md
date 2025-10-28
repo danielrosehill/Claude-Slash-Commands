@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 368
+Total commands: 370
 
 ## Command List (Alphabetical)
 
@@ -70,6 +70,7 @@ Total commands: 368
 - [chunk-this-dir](commands-flat/chunk-this-dir.md)
 - [claude-code-project](commands-flat/claude-code-project.md)
 - [claude-to-context](commands-flat/claude-to-context.md)
+- [clean-markdown](commands-flat/clean-markdown.md)
 - [clean-repo](commands-flat/clean-repo.md)
 - [clean-stt](commands-flat/clean-stt.md)
 - [clearpii](commands-flat/clearpii.md)
@@ -139,6 +140,7 @@ Total commands: 368
 - [explain-code](commands-flat/explain-code.md)
 - [extract-audio](commands-flat/extract-audio.md)
 - [extract-context-data](commands-flat/extract-context-data.md)
+- [fetch-docs](commands-flat/fetch-docs.md)
 - [file-system-alias](commands-flat/file-system-alias.md)
 - [find-command](commands-flat/find-command.md)
 - [find-learning](commands-flat/find-learning.md)
