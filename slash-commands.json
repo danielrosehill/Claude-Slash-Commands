@@ -231,6 +231,7 @@
   {"name": "notes-to-outline", "path": "commands-flat/notes-to-outline.md"},
   {"name": "npm-install", "path": "commands-flat/npm-install.md"},
   {"name": "obsidian-notebook", "path": "commands-flat/obsidian-notebook.md"},
+  {"name": "old-code-vacuum", "path": "commands-flat/old-code-vacuum.md"},
   {"name": "old-dev-servers", "path": "commands-flat/old-dev-servers.md"},
   {"name": "one-time-repo", "path": "commands-flat/one-time-repo.md"},
   {"name": "opnsense-audit", "path": "commands-flat/opnsense-audit.md"},

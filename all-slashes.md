@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 367
+Total commands: 368
 
 ## Command List (Alphabetical)
 
@@ -236,6 +236,7 @@ Total commands: 367
 - [notes-to-outline](commands-flat/notes-to-outline.md)
 - [npm-install](commands-flat/npm-install.md)
 - [obsidian-notebook](commands-flat/obsidian-notebook.md)
+- [old-code-vacuum](commands-flat/old-code-vacuum.md)
 - [old-dev-servers](commands-flat/old-dev-servers.md)
 - [one-time-repo](commands-flat/one-time-repo.md)
 - [opnsense-audit](commands-flat/opnsense-audit.md)
