@@ -7,11 +7,11 @@ I have used a scratchpad to note:
 - descriptions for the sections 
 - observations 
 
-Your task is to organise this data into a README.md or to add the new repos / projects to the existing one.
+Your task is to organize this data into a README.md or to add the new repos / projects to the existing one.
 
 Follow these editing guidelines:
 
-- Organisation is key: divide the repo into logical sections 
+- Organization is key: divide the repo into logical sections 
 - Within each section, order the projects alphabetically, by name 
 
 You can also note, or add a note if missing:
@@ -20,11 +20,18 @@ You can also note, or add a note if missing:
 - This is not a definitive list. That is almost never possible. 
 - For shields.io, use badges for View Repo, Star Count, Last Commit 
 
-Add or integrate a TOC but don't make it so long that it takes over the presentation. Consider linking just to key sections.
+## Additional Guidelines 
 
-Use horizontal lines to break / divide between sections (but not individual projects).
+- Add or integrate a TOC but don't make it so long that it takes over the presentation. Consider linking just to key sections.
+-  Use horizontal lines to break / divide between sections (but not individual projects).
 
-You can pull a short description of each repo using fetch. If the user has added their notes, synthesise the two data sources, combining the project's own description with the user's obesrvations (likewise for categories.)
+You can pull a short description of each repo using fetch but consider running this as a script so that you don't need to prompt the user for every fetch you make. 
+
+If the user has added their notes, synthesize the two data sources, combining the project's own description with the user's observations (likewise for categories.)
+
+The user has aggregated these resources for a reason and will likely share why this collection matters. If they didn't, you may ask them.
+
+Once you have integrated the repos from the scratchpad, delete the contents of the scratchpad.
 
 ## Presentation format
 
