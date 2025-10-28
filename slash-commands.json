@@ -118,6 +118,7 @@
   {"name": "deprecated", "path": "commands-flat/deprecated.md"},
   {"name": "design-ideas", "path": "commands-flat/design-ideas.md"},
   {"name": "desktop-tidy", "path": "commands-flat/desktop-tidy.md"},
+  {"name": "detach-from-remote", "path": "commands-flat/detach-from-remote.md"},
   {"name": "detect-spyware", "path": "commands-flat/detect-spyware.md"},
   {"name": "diagnose-crash", "path": "commands-flat/diagnose-crash.md"},
   {"name": "diagnose-lan-connectivity", "path": "commands-flat/diagnose-lan-connectivity.md"},

@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 375
+Total commands: 376
 
 ## Command List (Alphabetical)
 
@@ -123,6 +123,7 @@ Total commands: 375
 - [deprecated](commands-flat/deprecated.md)
 - [design-ideas](commands-flat/design-ideas.md)
 - [desktop-tidy](commands-flat/desktop-tidy.md)
+- [detach-from-remote](commands-flat/detach-from-remote.md)
 - [detect-spyware](commands-flat/detect-spyware.md)
 - [diagnose-crash](commands-flat/diagnose-crash.md)
 - [diagnose-lan-connectivity](commands-flat/diagnose-lan-connectivity.md)
