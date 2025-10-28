@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 376
+Total commands: 378
 
 ## Command List (Alphabetical)
 
@@ -294,6 +294,7 @@ Total commands: 376
 - [repo-merge](commands-flat/repo-merge.md)
 - [repo-to-hf-space](commands-flat/repo-to-hf-space.md)
 - [responsive-audit](commands-flat/responsive-audit.md)
+- [retro-lfs](commands-flat/retro-lfs.md)
 - [review-boot](commands-flat/review-boot.md)
 - [review-gpu-settings](commands-flat/review-gpu-settings.md)
 - [review-startup-services](commands-flat/review-startup-services.md)
@@ -324,6 +325,7 @@ Total commands: 376
 - [setup-conda-stt-finetune](commands-flat/setup-conda-stt-finetune.md)
 - [setup-docker](commands-flat/setup-docker.md)
 - [setup-hot-reload](commands-flat/setup-hot-reload.md)
+- [setup-lfs](commands-flat/setup-lfs.md)
 - [setup](commands-flat/setup.md)
 - [setup-nfs-mounts](commands-flat/setup-nfs-mounts.md)
 - [setup-ollama](commands-flat/setup-ollama.md)
