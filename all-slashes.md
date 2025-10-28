@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 374
+Total commands: 377
 
 ## Command List (Alphabetical)
 
@@ -72,6 +72,7 @@ Total commands: 374
 - [chunk-repo-context](commands-flat/chunk-repo-context.md)
 - [chunk-this-dir](commands-flat/chunk-this-dir.md)
 - [claude-code-project](commands-flat/claude-code-project.md)
+- [claude-to-context-2](commands-flat/claude-to-context-2.md)
 - [claude-to-context](commands-flat/claude-to-context.md)
 - [clean-markdown](commands-flat/clean-markdown.md)
 - [clean-repo](commands-flat/clean-repo.md)
@@ -85,7 +86,9 @@ Total commands: 374
 - [configure-auto-updates](commands-flat/configure-auto-updates.md)
 - [consolidate-folders](commands-flat/consolidate-folders.md)
 - [containerize](commands-flat/containerize.md)
+- [context-to-claude-2](commands-flat/context-to-claude-2.md)
 - [context-to-claude](commands-flat/context-to-claude.md)
+- [context-to-readme-and-claude](commands-flat/context-to-readme-and-claude.md)
 - [contributor-guide](commands-flat/contributor-guide.md)
 - [convert-audio-format](commands-flat/convert-audio-format.md)
 - [convert-to-markdown](commands-flat/convert-to-markdown.md)
