@@ -33,6 +33,8 @@ The user has aggregated these resources for a reason and will likely share why t
 
 Once you have integrated the repos from the scratchpad, delete the contents of the scratchpad.
 
+Rename the repository names to make them easier to read. For example if you encounter gemini-mcp-server list that as Gemini MCP Server. The repo link, of course, preserves the actual repository name. 
+
 ## Presentation format
 
 ### {Repo name}
