@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/daniel/repos/github/Claude-Slash-Commands/commands/**)",
+      "Bash(python3 /tmp/process_slash_commands.py)",
+      "Read(//home/daniel/repos/github/Claude-Slash-Commands/**)",
+      "Bash(git restore .)",
+      "Bash(tree:*)",
+      "Bash(find:*)",
+      "Bash(python3:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
