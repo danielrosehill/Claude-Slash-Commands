@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 377
+Total commands: 375
 
 ## Command List (Alphabetical)
 
@@ -13,6 +13,7 @@ Total commands: 377
 - [add-gitkeep](commands-flat/add-gitkeep.md)
 - [add-git-lfs](commands-flat/add-git-lfs.md)
 - [add-headings](commands-flat/add-headings.md)
+- [add-index-badge-and-structure](commands-flat/add-index-badge-and-structure.md)
 - [adding-to-awesome-list](commands-flat/adding-to-awesome-list.md)
 - [add-master-index-badge](commands-flat/add-master-index-badge.md)
 - [add-metaphors](commands-flat/add-metaphors.md)
@@ -72,7 +73,6 @@ Total commands: 377
 - [chunk-repo-context](commands-flat/chunk-repo-context.md)
 - [chunk-this-dir](commands-flat/chunk-this-dir.md)
 - [claude-code-project](commands-flat/claude-code-project.md)
-- [claude-to-context-2](commands-flat/claude-to-context-2.md)
 - [claude-to-context](commands-flat/claude-to-context.md)
 - [clean-markdown](commands-flat/clean-markdown.md)
 - [clean-repo](commands-flat/clean-repo.md)
@@ -86,7 +86,6 @@ Total commands: 377
 - [configure-auto-updates](commands-flat/configure-auto-updates.md)
 - [consolidate-folders](commands-flat/consolidate-folders.md)
 - [containerize](commands-flat/containerize.md)
-- [context-to-claude-2](commands-flat/context-to-claude-2.md)
 - [context-to-claude](commands-flat/context-to-claude.md)
 - [context-to-readme-and-claude](commands-flat/context-to-readme-and-claude.md)
 - [contributor-guide](commands-flat/contributor-guide.md)
@@ -102,6 +101,7 @@ Total commands: 377
 - [create-hf-readme](commands-flat/create-hf-readme.md)
 - [create-readme](commands-flat/create-readme.md)
 - [create-reference](commands-flat/create-reference.md)
+- [create-repo-index](commands-flat/create-repo-index.md)
 - [create-scope](commands-flat/create-scope.md)
 - [create-scratchpad](commands-flat/create-scratchpad.md)
 - [crop-images](commands-flat/crop-images.md)
@@ -182,8 +182,6 @@ Total commands: 377
 - [improve-claudemd](commands-flat/improve-claudemd.md)
 - [improve-css](commands-flat/improve-css.md)
 - [improve-flow](commands-flat/improve-flow.md)
-- [index-repo-2](commands-flat/index-repo-2.md)
-- [index-repo](commands-flat/index-repo.md)
 - [inferred-debugging](commands-flat/inferred-debugging.md)
 - [innovative-features](commands-flat/innovative-features.md)
 - [input-remapper](commands-flat/input-remapper.md)
