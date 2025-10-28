@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 371
+Total commands: 372
 
 ## Command List (Alphabetical)
 
@@ -35,6 +35,7 @@ Total commands: 371
 - [ai-context](commands-flat/ai-context.md)
 - [ai-friendly-seo](commands-flat/ai-friendly-seo.md)
 - [allow-env](commands-flat/allow-env.md)
+- [allow-repo-commands](commands-flat/allow-repo-commands.md)
 - [analyze-commits](commands-flat/analyze-commits.md)
 - [analyze-firewall](commands-flat/analyze-firewall.md)
 - [apply-filters](commands-flat/apply-filters.md)

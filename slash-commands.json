@@ -30,6 +30,7 @@
   {"name": "ai-context", "path": "commands-flat/ai-context.md"},
   {"name": "ai-friendly-seo", "path": "commands-flat/ai-friendly-seo.md"},
   {"name": "allow-env", "path": "commands-flat/allow-env.md"},
+  {"name": "allow-repo-commands", "path": "commands-flat/allow-repo-commands.md"},
   {"name": "analyze-commits", "path": "commands-flat/analyze-commits.md"},
   {"name": "analyze-firewall", "path": "commands-flat/analyze-firewall.md"},
   {"name": "apply-filters", "path": "commands-flat/apply-filters.md"},
