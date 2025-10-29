@@ -133,6 +133,7 @@
   {"name": "dont-reinvent-the-wheel", "path": "commands-flat/dont-reinvent-the-wheel.md"},
   {"name": "downscalehd", "path": "commands-flat/downscalehd.md"},
   {"name": "edit-system-prompt", "path": "commands-flat/edit-system-prompt.md"},
+  {"name": "env-setup", "path": "commands-flat/env-setup.md"},
   {"name": "evaluate-installed-software", "path": "commands-flat/evaluate-installed-software.md"},
   {"name": "evaluate-wake-devices", "path": "commands-flat/evaluate-wake-devices.md"},
   {"name": "exfiltrate-secrets", "path": "commands-flat/exfiltrate-secrets.md"},

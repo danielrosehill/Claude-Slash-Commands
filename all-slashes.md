@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 378
+Total commands: 379
 
 ## Command List (Alphabetical)
 
@@ -138,6 +138,7 @@ Total commands: 378
 - [dont-reinvent-the-wheel](commands-flat/dont-reinvent-the-wheel.md)
 - [downscalehd](commands-flat/downscalehd.md)
 - [edit-system-prompt](commands-flat/edit-system-prompt.md)
+- [env-setup](commands-flat/env-setup.md)
 - [evaluate-installed-software](commands-flat/evaluate-installed-software.md)
 - [evaluate-wake-devices](commands-flat/evaluate-wake-devices.md)
 - [exfiltrate-secrets](commands-flat/exfiltrate-secrets.md)
