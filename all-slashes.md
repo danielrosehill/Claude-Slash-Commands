@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 384
+Total commands: 385
 
 ## Command List (Alphabetical)
 
@@ -336,6 +336,7 @@ Total commands: 384
 - [setup-ollama](commands-flat/setup-ollama.md)
 - [setup-pyenv](commands-flat/setup-pyenv.md)
 - [setup-rclone](commands-flat/setup-rclone.md)
+- [setup-research-workspace](commands-flat/setup-research-workspace.md)
 - [setup-smb-mounts](commands-flat/setup-smb-mounts.md)
 - [setup-speech-to-text](commands-flat/setup-speech-to-text.md)
 - [shields-badges](commands-flat/shields-badges.md)

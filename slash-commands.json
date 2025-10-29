@@ -331,6 +331,7 @@
   {"name": "setup-ollama", "path": "commands-flat/setup-ollama.md"},
   {"name": "setup-pyenv", "path": "commands-flat/setup-pyenv.md"},
   {"name": "setup-rclone", "path": "commands-flat/setup-rclone.md"},
+  {"name": "setup-research-workspace", "path": "commands-flat/setup-research-workspace.md"},
   {"name": "setup-smb-mounts", "path": "commands-flat/setup-smb-mounts.md"},
   {"name": "setup-speech-to-text", "path": "commands-flat/setup-speech-to-text.md"},
   {"name": "shields-badges", "path": "commands-flat/shields-badges.md"},

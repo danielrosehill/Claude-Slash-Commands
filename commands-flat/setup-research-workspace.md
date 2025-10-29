@@ -4,15 +4,8 @@ The user has started this repo to run some deep research into a specific topic.
 
 Please:
 
-- Create /prompts with subfolders /drafting /run /queue
+- Create prompt.md 
 - Create CLAUDE.md instructing yourself of its purpose and referencing the files created 
 - Create /analysis for saving your analyses as markdown documents 
 - Create /context for the user to supply additional context 
 - Create scratchpad for the user to jot down notes 
-
-For CLAUDE.md, instruct this workflow:
-
-- User will create prompts in the prompt folder 
-- Claude will research 
-- Claude will write out analyses files in analysis with descriptive names 
-- When Claude has finished analysis, Claude will move the prompt into the run subfolder
