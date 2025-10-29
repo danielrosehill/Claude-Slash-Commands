@@ -78,6 +78,7 @@
   {"name": "code-non-code", "path": "commands-flat/code-non-code.md"},
   {"name": "collect-feedback", "path": "commands-flat/collect-feedback.md"},
   {"name": "compress-images", "path": "commands-flat/compress-images.md"},
+  {"name": "condense-to-claude", "path": "commands-flat/condense-to-claude.md"},
   {"name": "configure-auto-updates", "path": "commands-flat/configure-auto-updates.md"},
   {"name": "consolidate-folders", "path": "commands-flat/consolidate-folders.md"},
   {"name": "containerize", "path": "commands-flat/containerize.md"},

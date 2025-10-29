@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 380
+Total commands: 381
 
 ## Command List (Alphabetical)
 
@@ -83,6 +83,7 @@ Total commands: 380
 - [code-non-code](commands-flat/code-non-code.md)
 - [collect-feedback](commands-flat/collect-feedback.md)
 - [compress-images](commands-flat/compress-images.md)
+- [condense-to-claude](commands-flat/condense-to-claude.md)
 - [configure-auto-updates](commands-flat/configure-auto-updates.md)
 - [consolidate-folders](commands-flat/consolidate-folders.md)
 - [containerize](commands-flat/containerize.md)
