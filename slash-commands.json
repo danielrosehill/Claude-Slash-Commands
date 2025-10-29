@@ -152,6 +152,7 @@
   {"name": "first-to-third", "path": "commands-flat/first-to-third.md"},
   {"name": "fix-typos", "path": "commands-flat/fix-typos.md"},
   {"name": "flatten", "path": "commands-flat/flatten.md"},
+  {"name": "flatten-spec", "path": "commands-flat/flatten-spec.md"},
   {"name": "fork-setup", "path": "commands-flat/fork-setup.md"},
   {"name": "format-code", "path": "commands-flat/format-code.md"},
   {"name": "format-links", "path": "commands-flat/format-links.md"},

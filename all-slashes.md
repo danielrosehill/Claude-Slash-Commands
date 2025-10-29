@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 381
+Total commands: 382
 
 ## Command List (Alphabetical)
 
@@ -157,6 +157,7 @@ Total commands: 381
 - [first-to-third](commands-flat/first-to-third.md)
 - [fix-typos](commands-flat/fix-typos.md)
 - [flatten](commands-flat/flatten.md)
+- [flatten-spec](commands-flat/flatten-spec.md)
 - [fork-setup](commands-flat/fork-setup.md)
 - [format-code](commands-flat/format-code.md)
 - [format-links](commands-flat/format-links.md)
