@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 379
+Total commands: 380
 
 ## Command List (Alphabetical)
 
@@ -372,6 +372,7 @@ Total commands: 379
 - [troll-local-ai](commands-flat/troll-local-ai.md)
 - [uk-english](commands-flat/uk-english.md)
 - [update-readme](commands-flat/update-readme.md)
+- [update-spec](commands-flat/update-spec.md)
 - [use-conda](commands-flat/use-conda.md)
 - [us-english](commands-flat/us-english.md)
 - [user-docs](commands-flat/user-docs.md)

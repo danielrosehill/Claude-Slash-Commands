@@ -367,6 +367,7 @@
   {"name": "troll-local-ai", "path": "commands-flat/troll-local-ai.md"},
   {"name": "uk-english", "path": "commands-flat/uk-english.md"},
   {"name": "update-readme", "path": "commands-flat/update-readme.md"},
+  {"name": "update-spec", "path": "commands-flat/update-spec.md"},
   {"name": "use-conda", "path": "commands-flat/use-conda.md"},
   {"name": "us-english", "path": "commands-flat/us-english.md"},
   {"name": "user-docs", "path": "commands-flat/user-docs.md"},
