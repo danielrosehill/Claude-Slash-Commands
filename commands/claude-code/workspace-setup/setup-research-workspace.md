@@ -9,6 +9,15 @@ Please:
 - Create /analysis for saving your analyses as markdown documents 
 - Create /context for the user to supply additional context. At the base of this subfolder, create index.md 
 - Create scratchpad for the user to jot down notes 
+  
+Then:
+
+Create slash commands at .claude/commands for:
+
+- combining all outputs into one PDF with breaks between each page and page numbers in footer
+- Running the batch prompt queue 
+- Editing the user context file for clarity 
+
 
 For CLAUDE.md, instruct this workflow:
 
