@@ -117,6 +117,7 @@
   {"name": "depersonalise-prompts", "path": "commands-flat/depersonalise-prompts.md"},
   {"name": "deploy-ready", "path": "commands-flat/deploy-ready.md"},
   {"name": "deprecated", "path": "commands-flat/deprecated.md"},
+  {"name": "descriptive-folders", "path": "commands-flat/descriptive-folders.md"},
   {"name": "design-ideas", "path": "commands-flat/design-ideas.md"},
   {"name": "desktop-tidy", "path": "commands-flat/desktop-tidy.md"},
   {"name": "detach-from-remote", "path": "commands-flat/detach-from-remote.md"},

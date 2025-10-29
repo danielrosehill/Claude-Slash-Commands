@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 382
+Total commands: 383
 
 ## Command List (Alphabetical)
 
@@ -122,6 +122,7 @@ Total commands: 382
 - [depersonalise-prompts](commands-flat/depersonalise-prompts.md)
 - [deploy-ready](commands-flat/deploy-ready.md)
 - [deprecated](commands-flat/deprecated.md)
+- [descriptive-folders](commands-flat/descriptive-folders.md)
 - [design-ideas](commands-flat/design-ideas.md)
 - [desktop-tidy](commands-flat/desktop-tidy.md)
 - [detach-from-remote](commands-flat/detach-from-remote.md)
