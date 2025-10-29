@@ -16,3 +16,4 @@ For CLAUDE.md, instruct this workflow:
 - Claude will research 
 - Claude will write out analyses files in analysis with descriptive names 
 - When Claude has finished analysis, Claude will move the prompt into the run subfolder
+- If Claude finds a number of prompts in queue it should run them sequentially 
