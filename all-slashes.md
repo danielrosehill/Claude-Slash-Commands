@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 385
+Total commands: 386
 
 ## Command List (Alphabetical)
 
@@ -319,6 +319,7 @@ Total commands: 385
 - [separate-photos-and-video](commands-flat/separate-photos-and-video.md)
 - [sequential-filenames](commands-flat/sequential-filenames.md)
 - [session-summary](commands-flat/session-summary.md)
+- [setup-ai-dev-workspace](commands-flat/setup-ai-dev-workspace.md)
 - [setup-aws-cli](commands-flat/setup-aws-cli.md)
 - [setup-b2-cli](commands-flat/setup-b2-cli.md)
 - [setup-ci-cd](commands-flat/setup-ci-cd.md)

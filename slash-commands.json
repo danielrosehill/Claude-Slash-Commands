@@ -314,6 +314,7 @@
   {"name": "separate-photos-and-video", "path": "commands-flat/separate-photos-and-video.md"},
   {"name": "sequential-filenames", "path": "commands-flat/sequential-filenames.md"},
   {"name": "session-summary", "path": "commands-flat/session-summary.md"},
+  {"name": "setup-ai-dev-workspace", "path": "commands-flat/setup-ai-dev-workspace.md"},
   {"name": "setup-aws-cli", "path": "commands-flat/setup-aws-cli.md"},
   {"name": "setup-b2-cli", "path": "commands-flat/setup-b2-cli.md"},
   {"name": "setup-ci-cd", "path": "commands-flat/setup-ci-cd.md"},
