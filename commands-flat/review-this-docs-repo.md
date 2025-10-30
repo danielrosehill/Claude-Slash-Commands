@@ -24,4 +24,10 @@ Additionally:
 - You (CLAUDE) have a tendency to create files with UPPER_CASE titles. This is not desired. Use regular case: change ANALYSIS_GUIDE.md to analysis_guide.md, for example. 
 - If this repository is being reviewed and is public you can infer that it is intended to be seen by the internet at large. Therefore, we don't need docs that are intended just for the user's own reference. If you can idetify docs that were created for that purpose, you may remove them. Exceptions to this rule: CLAUDE.md which needs to remain upper case, README.md which is upper-cased by convention (do not change these). 
 
-Before finishing the task consider whether the repository is now a clear collection of knowledge, information, and/or docs that somebody vistiing this repository could quickly understand and find useful.
+Additionally:
+
+- Finally, add links. In the header, add a shields.io badge to my docs index https://github.com/danielrosehill/My-Docs-Index. I also maintain a website with my docs here: https://docs.bydanielrosehill.com. Link to both.
+
+Before finishing the task:
+
+Consider whether the repository is now a clear collection of knowledge, information, and/or docs that somebody vistiing this repository could quickly understand and find useful.
