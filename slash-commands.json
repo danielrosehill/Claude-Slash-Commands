@@ -299,6 +299,7 @@
   {"name": "retro-lfs", "path": "commands-flat/retro-lfs.md"},
   {"name": "review-boot", "path": "commands-flat/review-boot.md"},
   {"name": "review-gpu-settings", "path": "commands-flat/review-gpu-settings.md"},
+  {"name": "review-m-docs", "path": "commands-flat/review-m-docs.md"},
   {"name": "review-startup-services", "path": "commands-flat/review-startup-services.md"},
   {"name": "rewrite-as-structured", "path": "commands-flat/rewrite-as-structured.md"},
   {"name": "rewrite-in-shakespearean", "path": "commands-flat/rewrite-in-shakespearean.md"},

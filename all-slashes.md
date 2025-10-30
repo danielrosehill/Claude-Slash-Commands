@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 389
+Total commands: 390
 
 ## Command List (Alphabetical)
 
@@ -304,6 +304,7 @@ Total commands: 389
 - [retro-lfs](commands-flat/retro-lfs.md)
 - [review-boot](commands-flat/review-boot.md)
 - [review-gpu-settings](commands-flat/review-gpu-settings.md)
+- [review-m-docs](commands-flat/review-m-docs.md)
 - [review-startup-services](commands-flat/review-startup-services.md)
 - [rewrite-as-structured](commands-flat/rewrite-as-structured.md)
 - [rewrite-in-shakespearean](commands-flat/rewrite-in-shakespearean.md)
