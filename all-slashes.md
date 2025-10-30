@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 386
+Total commands: 388
 
 ## Command List (Alphabetical)
 
@@ -178,6 +178,7 @@ Total commands: 386
 - [hf-space](commands-flat/hf-space.md)
 - [home-assistant-audit](commands-flat/home-assistant-audit.md)
 - [honeypot-this](commands-flat/honeypot-this.md)
+- [how-does-it-work](commands-flat/how-does-it-work.md)
 - [hw-benchmark](commands-flat/hw-benchmark.md)
 - [identify-backup-targets](commands-flat/identify-backup-targets.md)
 - [identify-python-environments](commands-flat/identify-python-environments.md)
@@ -248,6 +249,7 @@ Total commands: 386
 - [notes-to-outline](commands-flat/notes-to-outline.md)
 - [npm-install](commands-flat/npm-install.md)
 - [obsidian-notebook](commands-flat/obsidian-notebook.md)
+- [old-code-cleanup](commands-flat/old-code-cleanup.md)
 - [old-code-vacuum](commands-flat/old-code-vacuum.md)
 - [old-dev-servers](commands-flat/old-dev-servers.md)
 - [one-time-repo](commands-flat/one-time-repo.md)
