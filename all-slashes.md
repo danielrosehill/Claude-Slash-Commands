@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 390
+Total commands: 391
 
 ## Command List (Alphabetical)
 
@@ -283,6 +283,7 @@ Total commands: 390
 - [prompt-library](commands-flat/prompt-library.md)
 - [proof-of-concept](commands-flat/proof-of-concept.md)
 - [proofread](commands-flat/proofread.md)
+- [public-or-private](commands-flat/public-or-private.md)
 - [public-slash](commands-flat/public-slash.md)
 - [public-to-private-hf](commands-flat/public-to-private-hf.md)
 - [python-env-setup](commands-flat/python-env-setup.md)

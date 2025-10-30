@@ -278,6 +278,7 @@
   {"name": "prompt-library", "path": "commands-flat/prompt-library.md"},
   {"name": "proof-of-concept", "path": "commands-flat/proof-of-concept.md"},
   {"name": "proofread", "path": "commands-flat/proofread.md"},
+  {"name": "public-or-private", "path": "commands-flat/public-or-private.md"},
   {"name": "public-slash", "path": "commands-flat/public-slash.md"},
   {"name": "public-to-private-hf", "path": "commands-flat/public-to-private-hf.md"},
   {"name": "python-env-setup", "path": "commands-flat/python-env-setup.md"},
