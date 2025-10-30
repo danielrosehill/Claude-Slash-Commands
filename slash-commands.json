@@ -365,6 +365,7 @@
   {"name": "system-upgrade", "path": "commands-flat/system-upgrade.md"},
   {"name": "target-grade-level", "path": "commands-flat/target-grade-level.md"},
   {"name": "tech-doc-to-blog-post", "path": "commands-flat/tech-doc-to-blog-post.md"},
+  {"name": "tech-documentation", "path": "commands-flat/tech-documentation.md"},
   {"name": "template", "path": "commands-flat/template.md"},
   {"name": "text-to-informal-meeting-notes", "path": "commands-flat/text-to-informal-meeting-notes.md"},
   {"name": "text-to-meeting-agenda", "path": "commands-flat/text-to-meeting-agenda.md"},

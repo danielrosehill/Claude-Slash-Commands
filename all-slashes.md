@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 388
+Total commands: 389
 
 ## Command List (Alphabetical)
 
@@ -370,6 +370,7 @@ Total commands: 388
 - [system-upgrade](commands-flat/system-upgrade.md)
 - [target-grade-level](commands-flat/target-grade-level.md)
 - [tech-doc-to-blog-post](commands-flat/tech-doc-to-blog-post.md)
+- [tech-documentation](commands-flat/tech-documentation.md)
 - [template](commands-flat/template.md)
 - [text-to-informal-meeting-notes](commands-flat/text-to-informal-meeting-notes.md)
 - [text-to-meeting-agenda](commands-flat/text-to-meeting-agenda.md)
