@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 391
+Total commands: 392
 
 ## Command List (Alphabetical)
 
@@ -73,6 +73,7 @@ Total commands: 391
 - [chunk-repo-context](commands-flat/chunk-repo-context.md)
 - [chunk-this-dir](commands-flat/chunk-this-dir.md)
 - [claude-code-project](commands-flat/claude-code-project.md)
+- [claude-commit-message](commands-flat/claude-commit-message.md)
 - [claude-to-context](commands-flat/claude-to-context.md)
 - [clean-markdown](commands-flat/clean-markdown.md)
 - [clean-repo](commands-flat/clean-repo.md)
