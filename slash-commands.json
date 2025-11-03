@@ -241,6 +241,7 @@
   {"name": "non-collaborative", "path": "commands-flat/non-collaborative.md"},
   {"name": "no-orphans", "path": "commands-flat/no-orphans.md"},
   {"name": "normalize-audio", "path": "commands-flat/normalize-audio.md"},
+  {"name": "note-ai-human-attrib", "path": "commands-flat/note-ai-human-attrib.md"},
   {"name": "note-block", "path": "commands-flat/note-block.md"},
   {"name": "notes-to-outline", "path": "commands-flat/notes-to-outline.md"},
   {"name": "npm-install", "path": "commands-flat/npm-install.md"},

@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 392
+Total commands: 393
 
 ## Command List (Alphabetical)
 
@@ -246,6 +246,7 @@ Total commands: 392
 - [non-collaborative](commands-flat/non-collaborative.md)
 - [no-orphans](commands-flat/no-orphans.md)
 - [normalize-audio](commands-flat/normalize-audio.md)
+- [note-ai-human-attrib](commands-flat/note-ai-human-attrib.md)
 - [note-block](commands-flat/note-block.md)
 - [notes-to-outline](commands-flat/notes-to-outline.md)
 - [npm-install](commands-flat/npm-install.md)
