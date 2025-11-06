@@ -20,6 +20,7 @@
   {"name": "add-repo-index", "path": "commands-flat/add-repo-index.md"},
   {"name": "add-sources", "path": "commands-flat/add-sources.md"},
   {"name": "add-statistics", "path": "commands-flat/add-statistics.md"},
+  {"name": "add-subagent-frontmatter", "path": "commands-flat/add-subagent-frontmatter.md"},
   {"name": "add-technical-depth", "path": "commands-flat/add-technical-depth.md"},
   {"name": "add-to-context", "path": "commands-flat/add-to-context.md"},
   {"name": "add-to-my-notes", "path": "commands-flat/add-to-my-notes.md"},

@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 393
+Total commands: 394
 
 ## Command List (Alphabetical)
 
@@ -25,6 +25,7 @@ Total commands: 393
 - [add-repo-index](commands-flat/add-repo-index.md)
 - [add-sources](commands-flat/add-sources.md)
 - [add-statistics](commands-flat/add-statistics.md)
+- [add-subagent-frontmatter](commands-flat/add-subagent-frontmatter.md)
 - [add-technical-depth](commands-flat/add-technical-depth.md)
 - [add-to-context](commands-flat/add-to-context.md)
 - [add-to-my-notes](commands-flat/add-to-my-notes.md)
