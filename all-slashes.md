@@ -1,6 +1,6 @@
 # All Slash Commands
 
-Total commands: 394
+Total commands: 395
 
 ## Command List (Alphabetical)
 
@@ -73,6 +73,7 @@ Total commands: 394
 - [choose-license](commands-flat/choose-license.md)
 - [chunk-repo-context](commands-flat/chunk-repo-context.md)
 - [chunk-this-dir](commands-flat/chunk-this-dir.md)
+- [claude-code-mcp](commands-flat/claude-code-mcp.md)
 - [claude-code-project](commands-flat/claude-code-project.md)
 - [claude-commit-message](commands-flat/claude-commit-message.md)
 - [claude-to-context](commands-flat/claude-to-context.md)

@@ -79,27 +79,49 @@ if [ $collision_count -gt 0 ]; then
 fi
 echo ""
 
-# Step 2: Sync commands-flat/ to ~/.claude/commands (destructively)
+# Step 2: Sync commands-flat/ to ~/.claude/commands (non-destructively)
 echo -e "${BLUE}Step 2: Syncing to ~/.claude/commands...${NC}"
 
-# Remove all existing .md files in target (destructive sync)
-if [ -d "${TARGET_DIR}" ]; then
-    echo -e "${YELLOW}Removing existing commands from ${TARGET_DIR}...${NC}"
-    find "${TARGET_DIR}" -type f -name "*.md" -delete
-else
+# Create target directory if it doesn't exist
+if [ ! -d "${TARGET_DIR}" ]; then
     mkdir -p "${TARGET_DIR}"
 fi
 
-# Copy all files from commands-flat to target
+# Copy all files from commands-flat to target (non-destructive)
+# Only overwrites files with same name, doesn't delete existing files
 sync_count=0
+updated_count=0
+new_count=0
+
 while IFS= read -r -d $'\0' file; do
     filename=$(basename "$file")
-    cp "$file" "${TARGET_DIR}/${filename}"
-    echo -e "  ${GREEN}✓${NC} ${filename}"
+    target_file="${TARGET_DIR}/${filename}"
+
+    if [ -f "$target_file" ]; then
+        # File exists - check if it needs updating
+        if ! cmp -s "$file" "$target_file"; then
+            cp "$file" "$target_file"
+            echo -e "  ${YELLOW}↻${NC} Updated: ${filename}"
+            ((updated_count++))
+        else
+            echo -e "  ${GREEN}✓${NC} Unchanged: ${filename}"
+        fi
+    else
+        # New file
+        cp "$file" "$target_file"
+        echo -e "  ${GREEN}+${NC} New: ${filename}"
+        ((new_count++))
+    fi
     ((sync_count++))
 done < <(find "$FLAT_DIR" -type f -name "*.md" -print0)
 
 echo -e "${GREEN}✓${NC} Synced ${sync_count} commands to ~/.claude/commands"
+if [ $new_count -gt 0 ]; then
+    echo -e "  ${GREEN}+${NC} ${new_count} new command(s)"
+fi
+if [ $updated_count -gt 0 ]; then
+    echo -e "  ${YELLOW}↻${NC} ${updated_count} updated command(s)"
+fi
 echo ""
 
 # Step 3: Git operations
@@ -123,5 +145,11 @@ fi
 
 echo ""
 echo -e "${GREEN}✓ Sync complete!${NC}"
-echo -e "  Total commands: ${flatten_count}"
-echo -e "  Active in ~/.claude/commands: ${sync_count}"
+echo -e "  Total commands flattened: ${flatten_count}"
+echo -e "  Commands synced: ${sync_count}"
+if [ $new_count -gt 0 ]; then
+    echo -e "  New: ${new_count}"
+fi
+if [ $updated_count -gt 0 ]; then
+    echo -e "  Updated: ${updated_count}"
+fi

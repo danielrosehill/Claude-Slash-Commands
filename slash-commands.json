@@ -68,6 +68,7 @@
   {"name": "choose-license", "path": "commands-flat/choose-license.md"},
   {"name": "chunk-repo-context", "path": "commands-flat/chunk-repo-context.md"},
   {"name": "chunk-this-dir", "path": "commands-flat/chunk-this-dir.md"},
+  {"name": "claude-code-mcp", "path": "commands-flat/claude-code-mcp.md"},
   {"name": "claude-code-project", "path": "commands-flat/claude-code-project.md"},
   {"name": "claude-commit-message", "path": "commands-flat/claude-commit-message.md"},
   {"name": "claude-to-context", "path": "commands-flat/claude-to-context.md"},
